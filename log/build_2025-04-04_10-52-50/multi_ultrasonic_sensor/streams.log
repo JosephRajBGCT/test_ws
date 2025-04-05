@@ -1,0 +1,27 @@
+[4.960s] Invoking command in '/home/sabbi/test_ws/src/multi_ultrasonic_sensor': PYTHONPATH=/home/sabbi/test_ws/build/multi_ultrasonic_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_ultrasonic_sensor build --build-base /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build install --record /home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log --single-version-externally-managed install_data
+[6.026s] running egg_info
+[6.030s] writing ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/PKG-INFO
+[6.034s] writing dependency_links to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/dependency_links.txt
+[6.036s] writing entry points to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/entry_points.txt
+[6.036s] writing requirements to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/requires.txt
+[6.037s] writing top-level names to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/top_level.txt
+[6.046s] reading manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'
+[6.052s] writing manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'
+[6.052s] running build
+[6.053s] running build_py
+[6.055s] copying multi_ultrasonic_sensor/single_ultrasonic_withfilter.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[6.056s] copying multi_ultrasonic_sensor/multi_sensor_node.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[6.058s] running install
+[6.059s] running install_lib
+[6.064s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/single_ultrasonic_withfilter.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[6.066s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/multi_sensor_node.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[6.070s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/single_ultrasonic_withfilter.py to single_ultrasonic_withfilter.cpython-310.pyc
+[6.076s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/multi_sensor_node.py to multi_sensor_node.cpython-310.pyc
+[6.079s] running install_data
+[6.081s] running install_egg_info
+[6.089s] removing '/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+[6.091s] Copying ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info to /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor-0.0.0-py3.10.egg-info
+[6.100s] running install_scripts
+[6.183s] Installing multi_sensor_node script to /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/multi_ultrasonic_sensor
+[6.186s] writing list of installed files to '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log'
+[6.314s] Invoked command in '/home/sabbi/test_ws/src/multi_ultrasonic_sensor' returned '0': PYTHONPATH=/home/sabbi/test_ws/build/multi_ultrasonic_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_ultrasonic_sensor build --build-base /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build install --record /home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log --single-version-externally-managed install_data

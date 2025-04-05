@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.012903] (battery_publisher) JobQueued: {'identifier': 'battery_publisher', 'dependencies': OrderedDict()}
+[0.013536] (multi_ultrasonic_sensor) JobQueued: {'identifier': 'multi_ultrasonic_sensor', 'dependencies': OrderedDict()}
+[0.013932] (battery_publisher) JobStarted: {'identifier': 'battery_publisher'}
+[0.099757] (-) TimerEvent: {}
+[0.120721] (multi_ultrasonic_sensor) JobStarted: {'identifier': 'multi_ultrasonic_sensor'}
+[0.204736] (-) TimerEvent: {}
+[0.306480] (-) TimerEvent: {}
+[0.408798] (-) TimerEvent: {}
+[0.511006] (-) TimerEvent: {}
+[0.612540] (-) TimerEvent: {}
+[0.713899] (-) TimerEvent: {}
+[0.814702] (-) TimerEvent: {}
+[0.916074] (-) TimerEvent: {}
+[1.017502] (-) TimerEvent: {}
+[1.118930] (-) TimerEvent: {}
+[1.220403] (-) TimerEvent: {}
+[1.321947] (-) TimerEvent: {}
+[1.423501] (-) TimerEvent: {}
+[1.525372] (-) TimerEvent: {}
+[1.627664] (-) TimerEvent: {}
+[1.729341] (-) TimerEvent: {}
+[1.832669] (-) TimerEvent: {}
+[1.934163] (-) TimerEvent: {}
+[2.035703] (-) TimerEvent: {}
+[2.137474] (-) TimerEvent: {}
+[2.244115] (-) TimerEvent: {}
+[2.348478] (-) TimerEvent: {}
+[2.449931] (-) TimerEvent: {}
+[2.551281] (-) TimerEvent: {}
+[2.652746] (-) TimerEvent: {}
+[2.754385] (-) TimerEvent: {}
+[2.855938] (-) TimerEvent: {}
+[2.957459] (-) TimerEvent: {}
+[3.060488] (-) TimerEvent: {}
+[3.162484] (-) TimerEvent: {}
+[3.264550] (-) TimerEvent: {}
+[3.366408] (-) TimerEvent: {}
+[3.469236] (-) TimerEvent: {}
+[3.571868] (-) TimerEvent: {}
+[3.673827] (-) TimerEvent: {}
+[3.775112] (-) TimerEvent: {}
+[3.876564] (-) TimerEvent: {}
+[3.978050] (-) TimerEvent: {}
+[4.095088] (-) TimerEvent: {}
+[4.196814] (-) TimerEvent: {}
+[4.298225] (-) TimerEvent: {}
+[4.399547] (-) TimerEvent: {}
+[4.500941] (-) TimerEvent: {}
+[4.602387] (-) TimerEvent: {}
+[4.703766] (-) TimerEvent: {}
+[4.805123] (-) TimerEvent: {}
+[4.906403] (-) TimerEvent: {}
+[5.007672] (-) TimerEvent: {}
+[5.109125] (-) TimerEvent: {}
+[5.210492] (-) TimerEvent: {}
+[5.311821] (-) TimerEvent: {}
+[5.413251] (-) TimerEvent: {}
+[5.514503] (-) TimerEvent: {}
+[5.615864] (-) TimerEvent: {}
+[5.717272] (-) TimerEvent: {}
+[5.818450] (-) TimerEvent: {}
+[5.919168] (-) TimerEvent: {}
+[6.019992] (-) TimerEvent: {}
+[6.123274] (-) TimerEvent: {}
+[6.226996] (-) TimerEvent: {}
+[6.329280] (-) TimerEvent: {}
+[6.430883] (-) TimerEvent: {}
+[6.532658] (-) TimerEvent: {}
+[6.634904] (-) TimerEvent: {}
+[6.736702] (-) TimerEvent: {}
+[6.838557] (-) TimerEvent: {}
+[6.940079] (-) TimerEvent: {}
+[7.041538] (-) TimerEvent: {}
+[7.149987] (-) TimerEvent: {}
+[7.252667] (-) TimerEvent: {}
+[7.354466] (-) TimerEvent: {}
+[7.455899] (-) TimerEvent: {}
+[7.557449] (-) TimerEvent: {}
+[7.659364] (-) TimerEvent: {}
+[7.760894] (-) TimerEvent: {}
+[7.862402] (-) TimerEvent: {}
+[7.963884] (-) TimerEvent: {}
+[8.065290] (-) TimerEvent: {}
+[8.166639] (-) TimerEvent: {}
+[8.268032] (-) TimerEvent: {}
+[8.369532] (-) TimerEvent: {}
+[8.471056] (-) TimerEvent: {}
+[8.572448] (-) TimerEvent: {}
+[8.673845] (-) TimerEvent: {}
+[8.774908] (-) TimerEvent: {}
+[8.876418] (-) TimerEvent: {}
+[8.978326] (-) TimerEvent: {}
+[9.079736] (-) TimerEvent: {}
+[9.181560] (-) TimerEvent: {}
+[9.282928] (-) TimerEvent: {}
+[9.384438] (-) TimerEvent: {}
+[9.486361] (-) TimerEvent: {}
+[9.587757] (-) TimerEvent: {}
+[9.689236] (-) TimerEvent: {}
+[9.790673] (-) TimerEvent: {}
+[9.892472] (-) TimerEvent: {}
+[9.994723] (-) TimerEvent: {}
+[10.101666] (-) TimerEvent: {}
+[10.205954] (-) TimerEvent: {}
+[10.309379] (-) TimerEvent: {}
+[10.412015] (-) TimerEvent: {}
+[10.441006] (battery_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/battery_publisher', 'build', '--build-base', '/home/sabbi/test_ws/build/battery_publisher/build', 'install', '--record', '/home/sabbi/test_ws/build/battery_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sabbi/test_ws/src/battery_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sabbi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sabbi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '8944', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sabbi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sabbi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sabbi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sabbi-desktop:@/tmp/.ICE-unix/1235,unix/sabbi-desktop:/tmp/.ICE-unix/1235', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b01abb48_dce9_4c93_b566_d0292fe735c7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4AC032', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.150', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sabbi/test_ws/build/battery_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sabbi/test_ws/build/battery_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/battery_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.504677] (multi_ultrasonic_sensor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/multi_ultrasonic_sensor', 'build', '--build-base', '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/build', 'install', '--record', '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sabbi/test_ws/src/multi_ultrasonic_sensor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sabbi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sabbi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '8944', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sabbi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sabbi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sabbi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sabbi-desktop:@/tmp/.ICE-unix/1235,unix/sabbi-desktop:/tmp/.ICE-unix/1235', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b01abb48_dce9_4c93_b566_d0292fe735c7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4AC032', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.150', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sabbi/test_ws/build/multi_ultrasonic_sensor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.531178] (-) TimerEvent: {}
+[10.632941] (-) TimerEvent: {}
+[10.734351] (-) TimerEvent: {}
+[10.835693] (-) TimerEvent: {}
+[10.936504] (-) TimerEvent: {}
+[11.038647] (-) TimerEvent: {}
+[11.141219] (-) TimerEvent: {}
+[11.242815] (-) TimerEvent: {}
+[11.344457] (-) TimerEvent: {}
+[11.446558] (-) TimerEvent: {}
+[11.548121] (-) TimerEvent: {}
+[11.649835] (-) TimerEvent: {}
+[11.751301] (-) TimerEvent: {}
+[11.852716] (-) TimerEvent: {}
+[11.954352] (-) TimerEvent: {}
+[12.055725] (-) TimerEvent: {}
+[12.157587] (-) TimerEvent: {}
+[12.259224] (-) TimerEvent: {}
+[12.360566] (-) TimerEvent: {}
+[12.462104] (-) TimerEvent: {}
+[12.563592] (-) TimerEvent: {}
+[12.665182] (-) TimerEvent: {}
+[12.766700] (-) TimerEvent: {}
+[12.868719] (-) TimerEvent: {}
+[12.970375] (-) TimerEvent: {}
+[13.071747] (-) TimerEvent: {}
+[13.173259] (-) TimerEvent: {}
+[13.274622] (-) TimerEvent: {}
+[13.376142] (-) TimerEvent: {}
+[13.384142] (battery_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[13.393616] (battery_publisher) StdoutLine: {'line': b'writing ../../build/battery_publisher/battery_publisher.egg-info/PKG-INFO\n'}
+[13.396115] (battery_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/battery_publisher/battery_publisher.egg-info/dependency_links.txt\n'}
+[13.398443] (battery_publisher) StdoutLine: {'line': b'writing entry points to ../../build/battery_publisher/battery_publisher.egg-info/entry_points.txt\n'}
+[13.400631] (battery_publisher) StdoutLine: {'line': b'writing requirements to ../../build/battery_publisher/battery_publisher.egg-info/requires.txt\n'}
+[13.402588] (battery_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/battery_publisher/battery_publisher.egg-info/top_level.txt\n'}
+[13.418208] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[13.424281] (battery_publisher) StdoutLine: {'line': b"reading manifest file '../../build/battery_publisher/battery_publisher.egg-info/SOURCES.txt'\n"}
+[13.429211] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/PKG-INFO\n'}
+[13.433431] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/dependency_links.txt\n'}
+[13.435510] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing entry points to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/entry_points.txt\n'}
+[13.436974] (battery_publisher) StdoutLine: {'line': b"writing manifest file '../../build/battery_publisher/battery_publisher.egg-info/SOURCES.txt'\n"}
+[13.439089] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing requirements to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/requires.txt\n'}
+[13.442411] (battery_publisher) StdoutLine: {'line': b'running build\n'}
+[13.443912] (battery_publisher) StdoutLine: {'line': b'running build_py\n'}
+[13.444962] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/top_level.txt\n'}
+[13.446533] (battery_publisher) StdoutLine: {'line': b'running install\n'}
+[13.447596] (battery_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[13.460303] (multi_ultrasonic_sensor) StdoutLine: {'line': b"reading manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'\n"}
+[13.461768] (battery_publisher) StdoutLine: {'line': b'running install_data\n'}
+[13.463064] (battery_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.472225] (multi_ultrasonic_sensor) StdoutLine: {'line': b"writing manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'\n"}
+[13.474418] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running build\n'}
+[13.475600] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running build_py\n'}
+[13.476491] (-) TimerEvent: {}
+[13.480989] (battery_publisher) StdoutLine: {'line': b"removing '/home/sabbi/test_ws/install/battery_publisher/lib/python3.10/site-packages/battery_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.482437] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install\n'}
+[13.484131] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[13.486070] (battery_publisher) StdoutLine: {'line': b'Copying ../../build/battery_publisher/battery_publisher.egg-info to /home/sabbi/test_ws/install/battery_publisher/lib/python3.10/site-packages/battery_publisher-0.0.0-py3.10.egg-info\n'}
+[13.502075] (battery_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[13.517635] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install_data\n'}
+[13.519029] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.530228] (multi_ultrasonic_sensor) StdoutLine: {'line': b"removing '/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.535786] (multi_ultrasonic_sensor) StdoutLine: {'line': b'Copying ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info to /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor-0.0.0-py3.10.egg-info\n'}
+[13.553644] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[13.576709] (-) TimerEvent: {}
+[13.636812] (battery_publisher) StdoutLine: {'line': b'Installing battery_publisher_node script to /home/sabbi/test_ws/install/battery_publisher/lib/battery_publisher\n'}
+[13.638687] (battery_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/sabbi/test_ws/build/battery_publisher/install.log'\n"}
+[13.666883] (multi_ultrasonic_sensor) StdoutLine: {'line': b'Installing multi_sensor_node script to /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/multi_ultrasonic_sensor\n'}
+[13.670666] (multi_ultrasonic_sensor) StdoutLine: {'line': b"writing list of installed files to '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log'\n"}
+[13.677337] (-) TimerEvent: {}
+[13.779697] (-) TimerEvent: {}
+[13.832613] (battery_publisher) CommandEnded: {'returncode': 0}
+[13.879826] (-) TimerEvent: {}
+[13.888645] (battery_publisher) JobEnded: {'identifier': 'battery_publisher', 'rc': 0}
+[13.898790] (multi_ultrasonic_sensor) CommandEnded: {'returncode': 0}
+[13.975158] (multi_ultrasonic_sensor) JobEnded: {'identifier': 'multi_ultrasonic_sensor', 'rc': 0}
+[13.981793] (-) TimerEvent: {}
+[13.982565] (-) EventReactorShutdown: {}

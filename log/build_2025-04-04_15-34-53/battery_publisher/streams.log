@@ -1,0 +1,21 @@
+[6.282s] Invoking command in '/home/sabbi/test_ws/src/battery_publisher': PYTHONPATH=/home/sabbi/test_ws/build/battery_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/battery_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_publisher build --build-base /home/sabbi/test_ws/build/battery_publisher/build install --record /home/sabbi/test_ws/build/battery_publisher/install.log --single-version-externally-managed install_data
+[7.529s] running egg_info
+[7.533s] writing ../../build/battery_publisher/battery_publisher.egg-info/PKG-INFO
+[7.539s] writing dependency_links to ../../build/battery_publisher/battery_publisher.egg-info/dependency_links.txt
+[7.542s] writing entry points to ../../build/battery_publisher/battery_publisher.egg-info/entry_points.txt
+[7.544s] writing requirements to ../../build/battery_publisher/battery_publisher.egg-info/requires.txt
+[7.544s] writing top-level names to ../../build/battery_publisher/battery_publisher.egg-info/top_level.txt
+[7.552s] reading manifest file '../../build/battery_publisher/battery_publisher.egg-info/SOURCES.txt'
+[7.560s] writing manifest file '../../build/battery_publisher/battery_publisher.egg-info/SOURCES.txt'
+[7.560s] running build
+[7.561s] running build_py
+[7.563s] running install
+[7.565s] running install_lib
+[7.573s] running install_data
+[7.575s] running install_egg_info
+[7.583s] removing '/home/sabbi/test_ws/install/battery_publisher/lib/python3.10/site-packages/battery_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[7.586s] Copying ../../build/battery_publisher/battery_publisher.egg-info to /home/sabbi/test_ws/install/battery_publisher/lib/python3.10/site-packages/battery_publisher-0.0.0-py3.10.egg-info
+[7.594s] running install_scripts
+[7.692s] Installing battery_publisher_node script to /home/sabbi/test_ws/install/battery_publisher/lib/battery_publisher
+[7.695s] writing list of installed files to '/home/sabbi/test_ws/build/battery_publisher/install.log'
+[7.910s] Invoked command in '/home/sabbi/test_ws/src/battery_publisher' returned '0': PYTHONPATH=/home/sabbi/test_ws/build/battery_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/battery_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_publisher build --build-base /home/sabbi/test_ws/build/battery_publisher/build install --record /home/sabbi/test_ws/build/battery_publisher/install.log --single-version-externally-managed install_data

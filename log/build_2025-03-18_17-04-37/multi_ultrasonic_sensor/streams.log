@@ -1,0 +1,52 @@
+[2.488s] Invoking command in '/home/sabbi/test_ws/src/multi_ultrasonic_sensor': PYTHONPATH=/home/sabbi/test_ws/build/multi_ultrasonic_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_ultrasonic_sensor build --build-base /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build install --record /home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log --single-version-externally-managed install_data
+[3.495s] running egg_info
+[3.498s] creating ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info
+[3.498s] writing ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/PKG-INFO
+[3.500s] writing dependency_links to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/dependency_links.txt
+[3.500s] writing entry points to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/entry_points.txt
+[3.501s] writing requirements to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/requires.txt
+[3.501s] writing top-level names to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/top_level.txt
+[3.502s] writing manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'
+[3.509s] reading manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'
+[3.512s] writing manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'
+[3.513s] running build
+[3.513s] running build_py
+[3.514s] creating /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build
+[3.514s] creating /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib
+[3.515s] creating /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[3.515s] copying multi_ultrasonic_sensor/single_ultrasonic_sensor2.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[3.516s] copying multi_ultrasonic_sensor/single_ultrasonic_sensor1.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[3.517s] copying multi_ultrasonic_sensor/__init__.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[3.517s] copying multi_ultrasonic_sensor/multi_sensor_node12.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[3.518s] copying multi_ultrasonic_sensor/single_ultrasonic_sensor.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[3.519s] copying multi_ultrasonic_sensor/multi_sensor_node_terminal.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[3.519s] copying multi_ultrasonic_sensor/multi_sensor_node.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor
+[3.521s] running install
+[3.522s] running install_lib
+[3.525s] creating /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[3.526s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/single_ultrasonic_sensor2.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[3.526s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/single_ultrasonic_sensor1.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[3.527s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/__init__.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[3.528s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/multi_sensor_node12.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[3.529s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/single_ultrasonic_sensor.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[3.530s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/multi_sensor_node_terminal.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[3.530s] copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/multi_sensor_node.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor
+[3.533s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/single_ultrasonic_sensor2.py to single_ultrasonic_sensor2.cpython-310.pyc
+[3.537s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/single_ultrasonic_sensor1.py to single_ultrasonic_sensor1.cpython-310.pyc
+[3.541s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/__init__.py to __init__.cpython-310.pyc
+[3.542s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/multi_sensor_node12.py to multi_sensor_node12.cpython-310.pyc
+[3.544s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/single_ultrasonic_sensor.py to single_ultrasonic_sensor.cpython-310.pyc
+[3.548s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/multi_sensor_node_terminal.py to multi_sensor_node_terminal.cpython-310.pyc
+[3.550s] byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/multi_sensor_node.py to multi_sensor_node.cpython-310.pyc
+[3.553s] running install_data
+[3.554s] creating /home/sabbi/test_ws/install/multi_ultrasonic_sensor/share/ament_index
+[3.555s] creating /home/sabbi/test_ws/install/multi_ultrasonic_sensor/share/ament_index/resource_index
+[3.555s] creating /home/sabbi/test_ws/install/multi_ultrasonic_sensor/share/ament_index/resource_index/packages
+[3.555s] copying resource/multi_ultrasonic_sensor -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/share/ament_index/resource_index/packages
+[3.556s] copying package.xml -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/share/multi_ultrasonic_sensor
+[3.556s] running install_egg_info
+[3.563s] Copying ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info to /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor-0.0.0-py3.10.egg-info
+[3.570s] running install_scripts
+[3.649s] Installing multi_sensor_node script to /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/multi_ultrasonic_sensor
+[3.652s] writing list of installed files to '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log'
+[3.777s] Invoked command in '/home/sabbi/test_ws/src/multi_ultrasonic_sensor' returned '0': PYTHONPATH=/home/sabbi/test_ws/build/multi_ultrasonic_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_ultrasonic_sensor build --build-base /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build install --record /home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log --single-version-externally-managed install_data

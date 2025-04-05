@@ -1,0 +1,3 @@
+[console_scripts]
+battery_publisher_node = battery_publisher.battery_publisher_node:main
+

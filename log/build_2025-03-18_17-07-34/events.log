@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.002057] (multi_ultrasonic_sensor) JobQueued: {'identifier': 'multi_ultrasonic_sensor', 'dependencies': OrderedDict()}
+[0.002678] (multi_ultrasonic_sensor) JobStarted: {'identifier': 'multi_ultrasonic_sensor'}
+[0.083574] (-) TimerEvent: {}
+[0.185487] (-) TimerEvent: {}
+[0.286524] (-) TimerEvent: {}
+[0.387917] (-) TimerEvent: {}
+[0.489515] (-) TimerEvent: {}
+[0.591367] (-) TimerEvent: {}
+[0.692251] (-) TimerEvent: {}
+[0.793259] (-) TimerEvent: {}
+[0.894349] (-) TimerEvent: {}
+[0.996010] (-) TimerEvent: {}
+[1.098075] (-) TimerEvent: {}
+[1.200694] (-) TimerEvent: {}
+[1.302244] (-) TimerEvent: {}
+[1.403655] (-) TimerEvent: {}
+[1.504968] (-) TimerEvent: {}
+[1.606097] (-) TimerEvent: {}
+[1.707592] (-) TimerEvent: {}
+[1.808469] (-) TimerEvent: {}
+[1.909946] (-) TimerEvent: {}
+[2.011807] (-) TimerEvent: {}
+[2.113683] (-) TimerEvent: {}
+[2.215354] (-) TimerEvent: {}
+[2.317400] (-) TimerEvent: {}
+[2.419734] (-) TimerEvent: {}
+[2.521388] (-) TimerEvent: {}
+[2.622541] (-) TimerEvent: {}
+[2.723628] (-) TimerEvent: {}
+[2.825805] (-) TimerEvent: {}
+[2.927825] (-) TimerEvent: {}
+[3.029935] (-) TimerEvent: {}
+[3.133482] (-) TimerEvent: {}
+[3.235196] (-) TimerEvent: {}
+[3.337049] (-) TimerEvent: {}
+[3.438881] (-) TimerEvent: {}
+[3.540590] (-) TimerEvent: {}
+[3.642915] (-) TimerEvent: {}
+[3.745674] (-) TimerEvent: {}
+[3.847109] (-) TimerEvent: {}
+[3.948536] (-) TimerEvent: {}
+[4.050108] (-) TimerEvent: {}
+[4.152544] (-) TimerEvent: {}
+[4.254559] (-) TimerEvent: {}
+[4.356150] (-) TimerEvent: {}
+[4.457904] (-) TimerEvent: {}
+[4.559278] (-) TimerEvent: {}
+[4.660891] (-) TimerEvent: {}
+[4.762633] (-) TimerEvent: {}
+[4.864265] (-) TimerEvent: {}
+[4.967238] (-) TimerEvent: {}
+[5.068592] (-) TimerEvent: {}
+[5.169432] (-) TimerEvent: {}
+[5.270798] (-) TimerEvent: {}
+[5.374760] (-) TimerEvent: {}
+[5.479371] (-) TimerEvent: {}
+[5.581364] (-) TimerEvent: {}
+[5.683082] (-) TimerEvent: {}
+[5.784554] (-) TimerEvent: {}
+[5.885862] (-) TimerEvent: {}
+[5.986890] (-) TimerEvent: {}
+[6.088046] (-) TimerEvent: {}
+[6.192891] (-) TimerEvent: {}
+[6.294558] (-) TimerEvent: {}
+[6.396569] (-) TimerEvent: {}
+[6.497966] (-) TimerEvent: {}
+[6.599599] (-) TimerEvent: {}
+[6.702455] (-) TimerEvent: {}
+[6.803870] (-) TimerEvent: {}
+[6.893081] (multi_ultrasonic_sensor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/multi_ultrasonic_sensor', 'build', '--build-base', '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/build', 'install', '--record', '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sabbi/test_ws/src/multi_ultrasonic_sensor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sabbi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sabbi', 'OLDPWD': '/home/sabbi/test_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1144', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ed9cdd967329ff7dbcc8fb4b67d93802', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sabbi/test_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sabbi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sabbi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sabbi-desktop:@/tmp/.ICE-unix/1144,unix/sabbi-desktop:/tmp/.ICE-unix/1144', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d4684763_7077_4259_ba3b_b3fdca9bd453', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.19AN32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sabbi/test_ws/install/multi_ultrasonic_sensor:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sabbi/test_ws/build/multi_ultrasonic_sensor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ed9cdd967329ff7dbcc8fb4b67d93802', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages:/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.910365] (-) TimerEvent: {}
+[7.011458] (-) TimerEvent: {}
+[7.113871] (-) TimerEvent: {}
+[7.215888] (-) TimerEvent: {}
+[7.318090] (-) TimerEvent: {}
+[7.422390] (-) TimerEvent: {}
+[7.523723] (-) TimerEvent: {}
+[7.625101] (-) TimerEvent: {}
+[7.726098] (-) TimerEvent: {}
+[7.828077] (-) TimerEvent: {}
+[7.929441] (-) TimerEvent: {}
+[8.030458] (-) TimerEvent: {}
+[8.132472] (-) TimerEvent: {}
+[8.234384] (-) TimerEvent: {}
+[8.336381] (-) TimerEvent: {}
+[8.438390] (-) TimerEvent: {}
+[8.539775] (-) TimerEvent: {}
+[8.641545] (-) TimerEvent: {}
+[8.743088] (-) TimerEvent: {}
+[8.844827] (-) TimerEvent: {}
+[8.946544] (-) TimerEvent: {}
+[9.048028] (-) TimerEvent: {}
+[9.149545] (-) TimerEvent: {}
+[9.251829] (-) TimerEvent: {}
+[9.354067] (-) TimerEvent: {}
+[9.457808] (-) TimerEvent: {}
+[9.559313] (-) TimerEvent: {}
+[9.661033] (-) TimerEvent: {}
+[9.727919] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[9.737086] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/PKG-INFO\n'}
+[9.744033] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/dependency_links.txt\n'}
+[9.748698] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing entry points to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/entry_points.txt\n'}
+[9.751776] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing requirements to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/requires.txt\n'}
+[9.754069] (multi_ultrasonic_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/top_level.txt\n'}
+[9.761221] (-) TimerEvent: {}
+[9.767288] (multi_ultrasonic_sensor) StdoutLine: {'line': b"reading manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'\n"}
+[9.777400] (multi_ultrasonic_sensor) StdoutLine: {'line': b"writing manifest file '../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info/SOURCES.txt'\n"}
+[9.779564] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running build\n'}
+[9.780669] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running build_py\n'}
+[9.784222] (multi_ultrasonic_sensor) StdoutLine: {'line': b'copying multi_ultrasonic_sensor/multi_sensor_node.py -> /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor\n'}
+[9.788916] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install\n'}
+[9.791926] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[9.800843] (multi_ultrasonic_sensor) StdoutLine: {'line': b'copying /home/sabbi/test_ws/build/multi_ultrasonic_sensor/build/lib/multi_ultrasonic_sensor/multi_sensor_node.py -> /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor\n'}
+[9.808651] (multi_ultrasonic_sensor) StdoutLine: {'line': b'byte-compiling /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor/multi_sensor_node.py to multi_sensor_node.cpython-310.pyc\n'}
+[9.812183] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install_data\n'}
+[9.813157] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.832551] (multi_ultrasonic_sensor) StdoutLine: {'line': b"removing '/home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.838240] (multi_ultrasonic_sensor) StdoutLine: {'line': b'Copying ../../build/multi_ultrasonic_sensor/multi_ultrasonic_sensor.egg-info to /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/python3.10/site-packages/multi_ultrasonic_sensor-0.0.0-py3.10.egg-info\n'}
+[9.857309] (multi_ultrasonic_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[9.861601] (-) TimerEvent: {}
+[9.963351] (-) TimerEvent: {}
+[10.049727] (multi_ultrasonic_sensor) StdoutLine: {'line': b'Installing multi_sensor_node script to /home/sabbi/test_ws/install/multi_ultrasonic_sensor/lib/multi_ultrasonic_sensor\n'}
+[10.053377] (multi_ultrasonic_sensor) StdoutLine: {'line': b"writing list of installed files to '/home/sabbi/test_ws/build/multi_ultrasonic_sensor/install.log'\n"}
+[10.063556] (-) TimerEvent: {}
+[10.165276] (-) TimerEvent: {}
+[10.267978] (-) TimerEvent: {}
+[10.309766] (multi_ultrasonic_sensor) CommandEnded: {'returncode': 0}
+[10.368737] (-) TimerEvent: {}
+[10.436226] (multi_ultrasonic_sensor) JobEnded: {'identifier': 'multi_ultrasonic_sensor', 'rc': 0}
+[10.446426] (-) EventReactorShutdown: {}

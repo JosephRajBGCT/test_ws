@@ -1,0 +1,3 @@
+[console_scripts]
+multi_sensor_node = multi_ultrasonic_sensor.multi_sensor_node:main
+
