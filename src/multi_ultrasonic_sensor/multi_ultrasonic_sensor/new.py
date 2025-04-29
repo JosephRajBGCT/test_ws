@@ -78,9 +78,7 @@ class UltrasonicSensor(Node):
             msg.min_range = 3.0
             msg.max_range = 100.0
 
-            if distance <= msg.min_range:
-                msg.range = msg.min_range
-            elif distance > msg.max_range or distance == -1:
+            if self.filtered_distance < msg.min_range or self.filtered_distance > msg.max_range or self.filtered_distance == -1:
                 msg.range = float('inf')
             else:
                 msg.range = float(distance)
