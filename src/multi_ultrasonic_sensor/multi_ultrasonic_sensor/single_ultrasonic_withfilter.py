@@ -23,7 +23,6 @@ class UltrasonicSensor(Node):
 
         self.filtered_distance = 0.0
         self.alpha = 0.3
-        self.outlier_threshold = 15
 
         print(f"[STDOUT] Sensor {self.sensor_id} - Process PID: {os.getpid()}")
         self.thread = threading.Thread(target=self.run_sensor, daemon=True)
@@ -54,18 +53,13 @@ class UltrasonicSensor(Node):
         distance = pulse_duration * 17150
         return distance
 
-    def reject_outliers(self, new_value):
-        if abs(new_value - self.filtered_distance) > self.outlier_threshold:
-            return self.filtered_distance
-        return new_value
-
     def low_pass_filter(self, new_value):
         return self.alpha * new_value + (1 - self.alpha) * self.filtered_distance
 
     def run_sensor(self):
         while self.running and rclpy.ok():
             raw_distance = self.measure_distance()
-            valid_distance = self.reject_outliers(raw_distance)
+            valid_distance = raw_distance  # Outlier threshold removed
             self.filtered_distance = self.low_pass_filter(valid_distance)
             self.publish_distance()
             time.sleep(0.02)
@@ -80,7 +74,6 @@ class UltrasonicSensor(Node):
             msg.min_range = 3.0
             msg.max_range = 100.0
 
-            # Final range logic
             if self.filtered_distance < msg.min_range or self.filtered_distance > msg.max_range or self.filtered_distance == -1:
                 msg.range = float('inf')
             else:
@@ -106,6 +99,7 @@ class UltrasonicSensor(Node):
             self.get_logger().info(f"Sensor {self.sensor_id} resources cleaned up.")
         else:
             print(f"[STDOUT] Sensor {self.sensor_id} resources cleaned up.")
+
 
 
 
