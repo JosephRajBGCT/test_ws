@@ -5,7 +5,6 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Range
 import os
-import math
 
 class UltrasonicSensor(Node):
     def __init__(self, trig_pin, echo_pin, sensor_id=None):
@@ -20,6 +19,9 @@ class UltrasonicSensor(Node):
         lgpio.gpio_claim_input(self.chip, self.echo_pin)
 
         self.publisher = self.create_publisher(Range, f'ultrasonic_distance_{self.sensor_id}', 15)
+
+        self.prev_distance = None
+        self.outlier_threshold = 30.0  # in cm
 
         print(f"[STDOUT] Sensor {self.sensor_id} - Process PID: {os.getpid()}")
         self.thread = threading.Thread(target=self.run_sensor, daemon=True)
@@ -50,11 +52,21 @@ class UltrasonicSensor(Node):
         distance = pulse_duration * 17150
         return distance
 
+    def reject_outliers(self, distance):
+        if self.prev_distance is None:
+            self.prev_distance = distance
+            return distance
+        if abs(distance - self.prev_distance) > self.outlier_threshold:
+            return self.prev_distance
+        self.prev_distance = distance
+        return distance
+
     def run_sensor(self):
         while self.running and rclpy.ok():
-            distance = self.measure_distance()
+            raw_distance = self.measure_distance()
+            distance = self.reject_outliers(raw_distance)
             self.publish_distance(distance)
-            time.sleep(0.02)
+            time.sleep(1.0 / 12.0)  # 12 Hz
 
     def publish_distance(self, distance):
         if rclpy.ok() and self.running:
@@ -86,10 +98,5 @@ class UltrasonicSensor(Node):
             print(f"[STDOUT] Stopping Sensor {self.sensor_id}")
         super().destroy_node()
 
-    def __del__(self):
-        if hasattr(self, 'chip'):
-            lgpio.gpiochip_close(self.chip)
-        if rclpy.ok():
-            self.get_logger().info(f"Sensor {self.sensor_id} resources cleaned up.")
-        else:
-            print(f"[STDOUT] Sensor {self.sensor_id} resources cleaned up.")
+    def __del
+
